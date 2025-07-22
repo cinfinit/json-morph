@@ -53,7 +53,7 @@ json-morph input.json [options]
 ## 🧼 Filter and Clean
 
 ```bash
-json-morph users.json \
+npx json-morph users.json \
   --filter "age > 21 && active == true" \
   --remove "password,internalNote" \
   --output active-users.json
@@ -63,7 +63,7 @@ json-morph users.json \
 ## 🔄 Remap Keys
 
 ```bash
-json-morph input.json \
+npx json-morph input.json \
   --map "user.name:fullName" \
   --map "user.id:userId" \
   --preserve
@@ -72,7 +72,7 @@ json-morph input.json \
 ## ➕ Add Fields
 
 ```bash
-json-morph input.json \
+npx json-morph input.json \
   --add "status:active" \
   --add "score:100"
 ```
@@ -80,7 +80,7 @@ json-morph input.json \
 ## 🧪 Combine It All
 
 ```bash
-json-morph data.json \
+npx  json-morph data.json \
   --filter "score >= 80" \
   --map "user.email:contact.email" \
   --add "passed:true" \
