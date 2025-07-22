@@ -1,0 +1,32 @@
+[
+  {
+    "user": {
+      "name": "Ironman",
+      "age": 25,
+      "isActive": true
+    },
+    "meta": {
+      "country": "US"
+    }
+  },
+  {
+    "user": {
+      "name": "Captain America",
+      "age": 16,
+      "isActive": false
+    },
+    "meta": {
+      "country": "Queens"
+    }
+  },
+  {
+    "user": {
+      "name": "Dr.Strange",
+      "age": 30,
+      "isActive": true
+    },
+    "meta": {
+      "country": "New York"
+    }
+  }
+]

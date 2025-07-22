@@ -1,0 +1,53 @@
+{
+  "name": "json-morph",
+  "version": "1.0.0",
+  "description": "Transform JSON like a boss.",
+  "main": "src/transform.js",
+  "type": "module",
+  "bin": {
+    "json-morph": "./bin/cli.js"
+  },
+    "exports": {
+    ".": "./src/transform.js"
+  },
+  "keywords": [
+  "json",
+  "cli",
+  "json-cli",
+  "json-transform",
+  "transform-json",
+  "json-filter",
+  "json-mapper",
+  "json-tools",
+  "json-utils",
+  "json-parser",
+  "data-transform",
+  "data-cleaning",
+  "data-pipeline",
+  "command-line",
+  "cli-tool",
+  "automation",
+  "scriptable-json",
+  "json-manipulation",
+  "filter",
+  "map",
+  "remove",
+  "add",
+  "json-query",
+  "ETL",
+  "data-processing"
+],
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/cinfinit/json-morph.git"
+},
+"bugs": {
+  "url": "https://github.com/cinfinit/json-morph/issues"
+},
+"homepage": "https://github.com/cinfinit/json-morph#readme",
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cinfinit",
+  "license": "ISC"
+}
